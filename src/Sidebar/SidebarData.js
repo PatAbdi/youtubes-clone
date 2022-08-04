@@ -33,7 +33,25 @@ export const SidebarData = [
         title: 'Reports',
         path: '/Reports',
         Icon: <FaIcons.FaHome/>,
-        CName: 'nav-text'
+        CName: 'nav-text',
+        iconClosed: <IoIosIcons.IoIosArrowDown/>,
+        iconOpened: <IoIosIcons.IoIosArrowUp/>,
+
+        SubNav: [
+            {
+                title: 'Users',
+                path: '/Users',
+                Icon: <IoIcons.IoPerson/>,
+            },
+
+            {
+                title: 'Caller',
+                path: '/Caller',
+                Icon: <IoIcons.IoPerson/>,
+            },
+
+           
+        ]
        
     },
 
