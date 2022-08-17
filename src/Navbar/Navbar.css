@@ -29,3 +29,47 @@
     transition: .5s;
 }
 
+.nav-menu.active
+{
+    left: -100%;
+    transition: .5s;
+}
+
+.Nav-text
+{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 8px 0px 8px 16px;
+    justify-content: flex-start;
+}
+
+
+.Nav-text > a
+{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.Nav-text a:hover
+{
+    background-color: gray;
+
+}
+
+.nav-menu-items
+{
+    width: 100%;
+}
+
+.nav-toggle
+{
+    /* background-color: aquamarine; */
+    width: 100%;
+}

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 // import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import SidebarData from '../SidebarData/SidebarData';
+import SubMenu from '../SidebarData/SubMenu';
 
 
 const Navbar = () => {
@@ -23,20 +24,12 @@ const Navbar = () => {
         <ul className='nav-menu-items'>
             <li className='nav-toggle'>
         <Link to="#" className='menu-bars'>
-        <AiIcons.AiOutlineMenu/>
+        <AiIcons.AiOutlineMenu onClick={showsidebar}/>
         </Link>
             </li>
 
         {SidebarData.map((sidedata,index) => {
-          return(
-            <li key={index} className={sidedata.CName}>
-              <Link to={sidedata.Path}>
-                {sidedata.Icon}
-                <span>{sidedata.Title}</span>
-              </Link>
-
-            </li>
-          )
+          return <SubMenu sidedata={sidedata} key={index}/>
         })}
             
 
