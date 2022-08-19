@@ -9,9 +9,9 @@ const SubMenu = ({sidedata}) => {
     const showsubnav = () => setsubnav(!subnav)
   return (
    <>
-  <Link to={sidedata.Path} onClick={sidedata.SubNav && showsubnav}>
-    <div>
-        {sidedata.Icon}
+  <Link to={sidedata.Path} onClick={sidedata.SubNav && showsubnav} className='subs'>
+    <div className='navsubs'>
+            {sidedata.Icon}
         <span>{sidedata.Title}</span>
 
     </div>
@@ -26,7 +26,7 @@ const SubMenu = ({sidedata}) => {
     </div>
     {subnav && sidedata.SubNav.map((subs, index) => {
     return(
-        <Link to={subs.Path} key={index}>
+        <Link to={subs.Path} key={index} className='subsnav'>
             {subs.Icon}
             <span>{subs.Title}</span>
         </Link>

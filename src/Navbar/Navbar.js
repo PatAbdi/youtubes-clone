@@ -27,10 +27,13 @@ const Navbar = () => {
         <AiIcons.AiOutlineMenu onClick={showsidebar}/>
         </Link>
             </li>
-
-        {SidebarData.map((sidedata,index) => {
-          return <SubMenu sidedata={sidedata} key={index}/>
-        })}
+            <li >
+                {SidebarData.map((sidedata,index) => {
+              return <SubMenu sidedata={sidedata} key={index}/>
+            })}
+            </li>
+            
+           
             
 
         </ul>

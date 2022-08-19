@@ -66,10 +66,39 @@
 .nav-menu-items
 {
     width: 100%;
+    text-decoration: none;
 }
 
 .nav-toggle
 {
     /* background-color: aquamarine; */
     width: 100%;
+    text-decoration: none;
+}
+
+.subs
+{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+}
+
+.navsubs > span
+{
+    margin-left: 1.1rem;
+}
+
+
+.subsnav
+{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.subsnav > span
+{
+    margin-left: 1.1rem;
 }

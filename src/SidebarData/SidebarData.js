@@ -1,6 +1,7 @@
 import React from 'react';
 import * as AiIcons from "react-icons/ai";
 import * as MdIcons from "react-icons/md";
+import * as CGIcons from "react-icons/cg";
 import * as Io5Icons from "react-icons/io5";
 import  * as VsIcons from "react-icons/vsc";
 
@@ -74,7 +75,42 @@ export const SidebarData = [
                 Path: '/Liked Videos',
                 Icon: <AiIcons.AiOutlineLike/>,
                 CName: 'Nav-text',
-            }
+            },
+
+            {
+                Title: 'Liked Videos',
+                Path: '/Liked Videos',
+                Icon: <CGIcons.CgPlayList/>,
+                CName: 'Nav-text',
+            },
+
+            {
+                Title: 'Liked Videos',
+                Path: '/Liked Videos',
+               Icon: <CGIcons.CgPlayList/>,
+                CName: 'Nav-text',
+            },
+
+            {
+                Title: 'Liked Videos',
+                Path: '/Liked Videos',
+               Icon: <CGIcons.CgPlayList/>,
+                CName: 'Nav-text',
+            },
+
+            {
+                Title: 'Liked Videos',
+                Path: '/Liked Videos',
+               Icon: <CGIcons.CgPlayList/>,
+                CName: 'Nav-text',
+            },
+
+            {
+                Title: 'Liked Videos',
+                Path: '/Liked Videos',
+               Icon: <CGIcons.CgPlayList/>,
+                CName: 'Nav-text',
+            },
 
         ]
     },
